@@ -1,0 +1,171 @@
+@import url(m_style.css);
+html,
+body,
+.container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header .two {
+  width: 100%;
+  height: 0.9rem;
+  background: #fa6372;
+}
+.container header .two .ww {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 0.9rem;
+  background: #f93e4f;
+  background: url(../img/未标题-1q.png) no-repeat left;
+  position: absolute;
+  left: 0.75rem;
+  top: 0;
+}
+.container header .two .ww img {
+  width: 0.38rem;
+  height: 0.43rem;
+  position: absolute;
+  left: -0.4rem;
+  top: 0.3rem;
+}
+.container header .two .ww span {
+  display: block;
+  -webkit-box-flex: 1;
+  font-size: .35rem;
+  padding-top: 0.3rem;
+  padding-left: 0.6rem;
+  color: white;
+}
+.container header .two .ww span a {
+  padding-left: 60%;
+  color: white;
+}
+.container .one {
+  width: 100%;
+  height: 1.06rem;
+  background: #f93e4f;
+}
+.container .one .dd {
+  width: 100%;
+  height: 1.06rem;
+  background: #f93e4f;
+}
+.container .one .dd p {
+  font-size: 0.35rem;
+  padding-left: 1.2rem;
+  padding-top: 0.4rem;
+  color: white;
+}
+.container .one .dd p a {
+  font-size: 0.28rem;
+  padding-left: 0.18rem;
+  color: white;
+}
+.container .three {
+  width: 100%;
+  height: 1.4rem;
+  background: #f93e4f;
+}
+.container .three p {
+  font-size: 0.55rem;
+  color: white;
+  padding-left: 1.2rem;
+}
+.container .three p a {
+  font-size: 0.3rem;
+  border-bottom: 1px solid white;
+  padding-left: 0.18rem;
+  color: white;
+}
+.container .four {
+  width: 100%;
+  height: 1.31rem;
+  background: #f93e4f;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-top: 1px solid white ;
+}
+.container .four .jj {
+  width: 50%;
+  height: 1.31rem;
+  background: #f93e4f;
+  text-align: center;
+}
+.container .four .jj p {
+  padding-top: 0.25rem;
+  font-size: 0.3rem ;
+  color: white;
+}
+.container .four .jj span {
+  font-size: 0.35rem ;
+  padding-top: 0.12rem;
+  color: white;
+}
+.container .four .qq {
+  width: 50%;
+  height: 1.31rem;
+  background: #f93e4f;
+  text-align: center;
+}
+.container .four .qq p {
+  padding-top: 0.25rem;
+  font-size: 0.3rem ;
+  color: white;
+}
+.container .four .qq span {
+  font-size: 0.35rem ;
+  padding-top: 0.12rem;
+  color: white;
+}
+.container section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.container section .one {
+  background: pink;
+  width: 100%;
+  height: 1.34rem;
+  background: none;
+  -webkit-box-align: center;
+}
+.container section .one dl {
+  overflow: auto;
+  -webkit-box-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .one dl dt {
+  overflow: auto;
+  margin-left: 0.35rem;
+}
+.container section .one dl dt img {
+  width: 1.2rem;
+  height: 1.27rem;
+}
+.container section .one dl dd {
+  -webkit-box-flex: 1;
+}
+.container section .one dl dd p {
+  padding-left: 0.3rem;
+  font-size: 0.28rem;
+}
+.container section .one dl dd a {
+  padding-left: 1.25rem ;
+  color: #AAAAAA;
+  font-size: 0.23rem;
+}
+.container section .one dl span {
+  border: 1px solid red;
+  display: block;
+  box-sizing: border-box;
+  font-size: 0.25rem;
+  text-align: center;
+  color: red;
+  width: 1.02rem;
+  height: .41rem;
+}

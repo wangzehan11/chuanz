@@ -1,0 +1,172 @@
+@import url(m_style.css);
+html,
+body,
+.container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header .one {
+  width: 100%;
+  height: 0.95rem;
+  background: #fa3b4d;
+}
+.container header .one img {
+  width: 0.37rem ;
+  height: 0.4rem ;
+  position: absolute;
+  left: 0.4rem ;
+  top: 0.33rem;
+}
+.container header .one span {
+  color: white;
+  font-size: 0.3rem;
+  position: absolute;
+  left: 3.45rem;
+  top: 0.33rem;
+}
+.container header .one a {
+  color: white;
+  font-size: 0.3rem;
+  position: absolute;
+  right: 0.4rem;
+  top: 0.33rem;
+}
+.container section {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+  background: #eeeeee;
+}
+.container section .one {
+  width: 6.7rem;
+  height: auto;
+  background: #eeeeee;
+  margin-top: 0.38rem;
+  margin-left: 0.4rem;
+}
+.container section .one img {
+  width: 100%;
+}
+.container section .two {
+  width: 6.7rem;
+  height: 1rem;
+  background: #ffffff;
+  margin-left: 0.4rem;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .two .ww {
+  width: 50%;
+  height: 1rem;
+  background: none;
+  text-align: center;
+}
+.container section .two .ww p {
+  font-size: 0.34rem;
+  padding-top: 0.3rem;
+}
+.container section .two .ww p span {
+  color: red;
+}
+.container section .two .dd {
+  width: 50%;
+  height: 1rem;
+  background: none;
+  text-align: center;
+}
+.container section .two .dd p {
+  font-size: 0.34rem;
+  padding-top: 0.3rem;
+}
+.container section .two .dd p span {
+  color: red;
+}
+.container section .three {
+  width: 100%;
+  height: 1.15rem;
+  background: #eeeeee;
+}
+.container section .three p {
+  margin-left: 0.4rem;
+  padding-top: 0.26rem;
+  font-size: 0.3rem;
+}
+.container section .three a {
+  margin-left: 0.4rem;
+  padding-top: 0.2rem;
+  font-size: 0.3rem;
+  color: #787878;
+}
+.container section .four {
+  width: 100%;
+  height: 1rem;
+  background: #ffffff;
+  border-bottom: 1px solid #efefef ;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .four .zz p {
+  padding-left: 0.4rem;
+  padding-top: 0.18rem;
+  color: #5e5e5e;
+}
+.container section .four .zz a {
+  padding-left: 0.4rem;
+  padding-top: 0.18rem;
+  color: #5e5e5e;
+}
+.container section .four span {
+  -webkit-box-flex: 1;
+  display: block;
+  padding-top: 0.35rem;
+  padding-left: 0.44rem;
+  color: #5e5e5e;
+}
+.container section .four span a {
+  color: red;
+}
+.container section .five {
+  width: 100%;
+  height: 0.55rem;
+  background: #eeeeee;
+}
+.container section .five a {
+  margin-left: 0.4rem;
+  padding-top: 0.2rem;
+  font-size: 0.3rem;
+  color: #787878;
+}
+.container section .four {
+  width: 100%;
+  height: 1rem;
+  background: #ffffff;
+  border-bottom: 1px solid #efefef ;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .four .zz p {
+  padding-left: 0.4rem;
+  padding-top: 0.18rem;
+  color: #5e5e5e;
+}
+.container section .four .zz a {
+  padding-left: 0.4rem;
+  padding-top: 0.18rem;
+  color: #5e5e5e;
+}
+.container section .four span {
+  -webkit-box-flex: 1;
+  display: block;
+  padding-top: 0.35rem;
+  padding-left: 0.44rem;
+  color: #5e5e5e;
+}
+.container section .four span a {
+  color: red;
+}

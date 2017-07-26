@@ -1,0 +1,86 @@
+@import url(m_style.css);
+html,
+body,
+.container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  width: 100%;
+  height: 0.84rem;
+  background: #f93a4c;
+}
+.container header img {
+  margin-left: 0.4rem;
+  width: 0.37rem;
+  height: 0.39rem;
+}
+.container header span {
+  display: block;
+  -webkit-box-flex: 1;
+  text-align: center;
+  color: white;
+  font-size: 0.35rem;
+}
+.container section {
+  width: 100%;
+  height: auto;
+  background: none;
+  -webkit-box-flex: 1;
+  margin-top: 0.81rem;
+}
+.container section .one {
+  width: auto;
+  height: 0.7rem;
+  background: none;
+  margin: 0 .4rem 0 .4rem;
+}
+.container section .one p {
+  color: #CCCCCC;
+}
+.container section .one p a {
+  color: #000000;
+}
+.container section .two {
+  padding-top: 1.3rem ;
+  width: auto;
+  height: 0.7rem;
+  background: none;
+  margin: 0 .4rem 0 .4rem;
+}
+.container section .two .ww {
+  width: 100%;
+  height: 0.48rem;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+.container section .two .zz {
+  width: 100%;
+  height: 0.88rem;
+  border: none;
+  border-bottom: 1px solid orange;
+}
+.container section .two .hh {
+  width: 100%;
+  height: 0.8rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.container section .two button {
+  margin-top: 2.1rem ;
+  width: 100%;
+  height: 0.88rem;
+  border: none;
+  background: #f9384b;
+  border-radius: 0.1rem;
+  font-size: 0.3rem;
+  color: white;
+}

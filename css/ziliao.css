@@ -1,0 +1,61 @@
+@import url(m_style.css);
+html,
+body,
+.container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  width: 100%;
+  height: 0.84rem;
+  background: #f93a4c;
+}
+.container header img {
+  margin-left: 0.4rem;
+  width: 0.37rem;
+  height: 0.39rem;
+}
+.container header span {
+  display: block;
+  -webkit-box-flex: 1;
+  text-align: center;
+  color: white;
+  font-size: 0.35rem;
+}
+.container section .one p {
+  line-height: 1.1rem;
+  border: 1px solid #fbfbfb;
+  font-size: 0.3rem;
+  padding-left: 0.17rem;
+}
+.container section .one p a {
+  float: right;
+  padding-right: 0.38rem;
+  font-size: 0.3rem;
+  color: #CCCCCC;
+}
+.container section .one img {
+  float: right;
+  width: 1.01rem;
+  height: 0.92rem;
+  margin-right: 0.38rem;
+}
+.container section .two button {
+  margin-top: 2.1rem ;
+  width: 90%;
+  height: 0.88rem;
+  border: none;
+  background: #f9384b;
+  border-radius: 0.1rem;
+  font-size: 0.3rem;
+  color: white;
+  margin-left: 0.3rem;
+}

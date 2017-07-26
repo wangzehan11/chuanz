@@ -1,0 +1,236 @@
+@import url(m_style.css);
+.full(@w, @h, @c) {
+    width: @w;
+    height: @h;
+    background: @c;
+}
+html,
+body,
+.container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.box(@dir:horizontal) {
+    display: -webkit-box;
+    -webkit-box-orient: @dir;
+}
+.container {
+    .box(vertical);
+    header
+    {
+        .full(100%,5.8rem,#ed5858);
+        .one
+        {
+            .full(100%,2.05rem,none);
+            .box;
+            .oo
+            {
+                .full(2.3rem,2.05rem,none);
+                img
+                {
+                    width: 0.48rem;
+                    height: 0.37rem;
+                    margin-left:0.28rem ;
+                    margin-top: 0.19rem;
+                }
+            }
+            .nn
+            {
+                .full(1.88rem,2.05rem,none);
+                img
+                   {
+                       width:1.77rem ;
+                       height: 1.77rem;
+                       border-radius: 50%;
+                       margin-top: 0.25rem;
+                       margin-left: 0.05rem;
+                   }
+            }
+            .ee
+            {
+                .full(2.3rem,2.05rem,none);
+                img
+                {
+                    width: 0.48rem;
+                    height: 0.37rem;
+                    margin-left: 1.6rem;
+                    margin-top: 0.19rem;
+                    
+                }
+            }
+            
+        }
+        .two
+        {
+            .full(100%,1.59rem,none);
+            text-align: center;
+           p
+           {
+               padding-top: 0.28rem;
+               font-size: 0.22rem;
+               color: white;
+           }
+           span
+           {
+               font-size: 0.49rem;
+               color: white;
+           }
+
+        }
+        .three
+        {
+            .full(100%,1.17rem,none);
+            .box;
+            .tt
+            {
+                .full(50%,1.17rem,none);
+                    p
+               {
+                  padding-left: 0.82rem;
+                   font-size: 0.22rem;
+                   color: white;
+               }
+               span
+               {
+                    padding-left: 0.82rem;
+                   font-size: 0.35rem;
+                   color: white;
+               }
+            }
+            .hh
+            {
+                .full(50%,1.17rem,none);
+                p
+               {
+                   padding-left: 0.82rem;
+                   font-size: 0.22rem;
+                   color: white;
+               }
+               span
+               {
+                    padding-left: 0.82rem;
+                   font-size: 0.35rem;
+                   color: white;
+               }
+            }
+        }
+        .four
+        {
+            .full(100%,1.02rem,none);
+            .box;
+            text-align: center; 
+            .ff
+            {
+                 .full(50%,1.02rem,none);
+                 button
+                 {
+                     width:2.64rem ;
+                     height: 0.79rem;
+                     background: #ffbb00;
+                     border: none;
+                     color: white;
+                     font-size: 0.37rem;
+                 }
+            }
+            .uu
+            {
+                 .full(50%,1.02rem,none);
+                  button
+                 {
+                     width:2.64rem ;
+                     height: 0.79rem;
+                     background:#ed5858 ;
+                     border: none;
+                     border: 1px solid #ccc;
+                     color: white;
+                     font-size: 0.37rem;
+                 }
+            }
+        }
+    }
+    section
+    {
+        -webkit-box-flex: 1;
+        overflow: auto;
+        .one
+        {
+            .full(100%,2rem,none);
+            .ww
+            {
+                .box;
+               dl
+               {
+                    margin-left: 0.3rem;
+                    text-align: center;
+                   dt
+                   {
+                       img
+                       {
+                           width: 0.8rem;
+                           height: 0.8rem;
+                           margin-top: 0.4rem;
+                          
+                       }
+                   }
+                   dd
+                   {
+                       font-size: 0.3rem;
+                   }
+               }
+                
+            }
+        }
+        .cc
+        {
+            img
+            {
+                width: 0.38rem;
+                height: 0.38rem;
+                
+                margin-left:0.45rem ;
+            }
+            line-height:0.87rem ;
+            border: 1px #ccc solid;
+            font-size: 0.3rem;
+            p
+            {
+                a
+                {
+                    float: right;
+                    color: #aaaaaa;
+                    img
+                    {
+                        width: 0.16rem;
+                        height: 0.26rem;
+                    }
+                }
+            }
+        }
+    }
+    footer
+    {
+        .full(100%,1rem,#f7f7f7);
+        .box;
+        dl
+        {
+            margin-left: 0.62rem;
+            margin-top: 0.09rem;
+             text-align: center;
+            dt
+            {
+                img
+                {
+                    width: 0.52rem;
+                    height: 0.45rem;
+                   
+                }
+            }
+            dd
+            {
+                 color: #929292;
+                
+            }
+        }
+    }
+}

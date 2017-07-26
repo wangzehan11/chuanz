@@ -1,0 +1,339 @@
+@import url(m_style.css); //封装 宽高背景 属性
+.whb(@w, @h, @bg) {
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.wh(@w, @h) {
+    width: @w;
+    height: @h;
+}
+//封装新弹性盒  水平方向排列
+.box(@dir:row) {
+    display: flex; //将父元素设置成弹性盒布局
+    flex-direction: @dir; //设置子元素的排列方式
+}
+@myhead: #f3596a; //头部颜色
+@maincolor: #eeeeee; //主体颜色
+.font10 {
+    //变形  ：缩放（比例）
+    transform: scale(10/12);
+    //缩放中心改为左上角
+    transform-origin: left top;
+    //行内元素变为块元素
+    display: block;
+}
+//设置根元素100%宽高
+html,
+body,
+.container {
+    .full;
+}
+.full {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+//以上为公共样式
+.container {
+    .box(column);
+    .header {
+        .box;
+        align-items: center;
+        .whb(100%,0.9rem,@myhead);
+        background-image: -webkit-linear-gradient(left,@myhead,#fa6372);
+        .header-title-pic {
+            .wh(0.35rem,0.35rem);
+            background: url("../img/arrows.png") no-repeat;
+            background-size: 0.35rem;
+            margin-left: 0.4rem;
+            box-sizing: border-box;
+        }
+        .header-title {
+            flex: 1;
+            color: #fff;
+            font-size: 0.35rem;
+            text-align: center;
+        }
+        .header-title-right {
+            color: #fff;
+            font-size: 0.30rem;
+            margin-right: 0.4rem;
+        }
+    }
+    //  去掉右侧的滚动条
+    .main::-webkit-scrollbar {
+        width: 0;
+    }
+ 
+   
+ 
+    //第八部分
+    .header-eighth-title {
+        .box;
+        .whb(auto , 0.88rem ,#fff);
+        padding: 0 0.4rem;
+        align-items: center;
+        .header-eighth-title-one {
+            .header-eighth-title-icon {
+                .wh(0.35rem, auto);
+                margin-right: 0.21rem;
+            }
+        }
+        .header-eighth-title-two {
+            flex: 1;
+            border-left: 1px solid #d9d9d9;
+            padding-left: 0.22rem;
+            color: #333333;
+            font-size: 0.28rem;
+        }
+        .header-eighth-title-three {
+            .header-eighth-title-pic {
+                .wh(0.35rem, auto);
+            }
+        }
+    }
+    .main-eighth {
+        .whb(auto,1rem,#fff);
+        margin: 0 0.2rem;
+        border-radius: 0.05rem;
+        margin-top: 0.2rem;
+        .box;
+        align-items: center;
+        .main-eighth-img1 {
+            margin-left: 0.2rem;
+            .main-eighth-pic {
+                .wh(0.43rem,auto);
+            }
+        }
+        .main-eighth-txt {
+            flex: 1;
+            color: #333333;
+            font-size: 0.26rem;
+            margin-left: 0.35rem;
+        }
+        .main-eighth-img2 {
+            .main-eighth-pic2 {
+                .wh(0.21rem,auto);
+                margin-right: 0.2rem;
+            }
+        }
+    }
+    .main-eighth-1 {
+        .whb(auto,2.28rem,#fff);
+        margin-top: 0.2rem;
+        padding: 0.2rem 0.4rem 0;
+        .main-eighth-body-1 {
+            color: #666666;
+            font-size: 0.27rem;
+        }
+        .main-eighth-body-2 {
+            border-bottom: 1px solid #d9d9d9;
+            padding-bottom: 0.2rem;
+            margin-top: 0.2rem;
+            .box;
+            .eighth-icon {
+                .main-eighth-body-pic {
+                    .wh(0.24rem,auto);
+                }
+            }
+            .main-eighth-body-text1 {
+                margin: 0 auto;
+                color: #cccccc;
+                font-size: 0.23rem;
+            }
+        }
+        .main-eighth-body-3 {
+            .box;
+            margin-top: 0.2rem;
+            .main-eighth-body-text2 {
+                flex: 1;
+                color: #333333;
+                font-size: 0.26rem;
+                i {
+                    color: #fb9ba2;
+                }
+            }
+            .main-eighth-body-text3 {
+                color: #8cb8ee;
+            }
+        }
+    }
+    .main-eighth-2 {
+        .whb(auto,0.7rem,#ff9914);
+        margin: 0.9rem 0.4rem 0;
+        color: #fff;
+        font-size: 0.26rem;
+        text-align: center;
+        line-height: 0.7rem;
+    }
+    //第八部分
+    //第九部分
+    .main-ninth {
+        .wh(auto,0.85rem);
+        padding: 0 0.4rem;
+        line-height: 0.85rem;
+        color: #989898;
+        font-size: 0.24rem;
+    }
+    .main-ninth-1 {
+        .whb(auto,1rem,#fff);
+        border-bottom: 1px solid #e1e1e1;
+        .box;
+        align-items: center;
+        padding: 0 0.4rem;
+        .name {
+            color: #999999;
+            font-size: 0.26rem;
+        }
+        .zhang {
+            flex: 1;
+            color: #333333;
+            font-size: 0.29rem;
+            margin-left: 1.33rem;
+        }
+        .ninth-pic {
+            .ninth-img {
+                .wh(0.37rem,0.37rem);
+            }
+        }
+    }
+    .main-ninth-2 {
+        .whb(auto,1rem,#fff);
+        border-bottom: 1px solid #e1e1e1;
+        .box;
+        align-items: center;
+        padding: 0 0.4rem;
+        .papers {
+            color: #999999;
+            font-size: 0.26rem;
+        }
+        .shu {
+            color: #333333;
+            font-size: 0.25rem;
+            margin-left: 1.33rem;
+        }
+    }
+    .main-ninth-3 {
+        .whb(auto,1rem,none);
+        border-bottom: 1px solid #e1e1e1;
+        .box;
+        align-items: center;
+        padding: 0 0.4rem;
+        .papers2 {
+            flex: 1;
+            color: #999999;
+            font-size: 0.26rem;
+        }
+        .support {
+            color: #fdad5b;
+            font-size: 0.23rem;
+        }
+    }
+    .main-ninth-4 {
+        .whb(auto,1rem,#fff);
+        border-bottom: 1px solid #e1e1e1;
+        .box;
+        align-items: center;
+        padding: 0 0.4rem;
+        .papers3 {
+            flex: 1;
+            color: #999999;
+            font-size: 0.26rem;
+        }
+        .shu2 {
+            color: #333333;
+            font-size: 0.25rem;
+            margin-left: 1.33rem;
+        }
+    }
+    .main-ninth-5 {
+        .whb(auto,1rem,#fff);
+        padding: 0 0.4rem;
+        border-bottom: 1px solid #e1e1e1;
+        .box;
+        align-items: center;
+        .main-ninth-img {
+            .main-ninth-img {
+                .wh(0.43rem,auto);
+            }
+        }
+        .main-ninth-txt {
+            flex: 1;
+            color: #333333;
+            font-size: 0.26rem;
+            margin-left: 0.35rem;
+        }
+        .main-ninth-img2 {
+            .main-ninth-pic2 {
+                .wh(0.21rem,auto);
+            }
+        }
+    }
+    .main-ninth-6 {
+        .box;
+        padding: 0 0.4rem;
+        .whb(auto,0.89rem,#fff);
+        align-items: center;
+        border-bottom: 1px solid #e1e1e1;
+        .code {
+            color: #999999;
+            font-size: 0.25rem;
+        }
+        .code-tel {
+            flex: 1;
+            color: #999999;
+            font-size: 0.25rem;
+            border: 1px solid #aaaaaa;
+            text-align: center;
+            margin-left: 0.57rem;
+            margin-right: 0.36rem;
+            .wh(2.8rem,0.5rem);
+            line-height: 0.5rem;
+            border-radius: 0.12rem;
+//          ?padding: 0.5rem 0.5rem;
+            margin-left: 0.5rem;
+        }
+        .get-code {
+            .whb(1.66rem,0.52rem,#ff9914);
+            border: 1px solid #ff9914;
+            color: #fff;
+            font-size: 0.25rem;
+            text-align: center;
+            line-height: 0.52rem;
+            border-radius: 0.14rem;
+        }
+    }
+    .main-ninth-7 {
+        padding: 0 0.4rem;
+        .box;
+        margin-top: 0.1rem;
+        .duihao-pic {
+            margin-right: 0.15rem;
+            .duihao {
+                .wh(0.43rem,0.43rem);
+            }
+        }
+        .duihao-txt {
+            color: #333333;
+            font-size: 0.25rem;
+            .duihao-i {
+                color: #ff9914;
+                font-size: 0.25rem;
+            }
+        }
+    }
+    .main-ninth-8{
+        margin: 0 auto;
+        margin-top: 0.64rem;
+        .whb(4.70rem,0.88rem, #f9384b);
+        text-align: center;
+        color: #fff;
+        font-size: 0.32rem;
+        line-height: 0.88rem;
+        border-radius: 0.15rem;
+    }
+    //main-ninth
+    //第九部分
+}
+//container

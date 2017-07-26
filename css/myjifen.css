@@ -1,0 +1,134 @@
+@import url(m_style.css);
+html,
+body,
+.container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 4.18rem;
+  background: #fe7795;
+}
+.container header .zz {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container header .zz .one {
+  width: 2.96rem;
+  height: 2.32rem;
+  background: none;
+}
+.container header .zz .one img {
+  width: .37rem;
+  height: .42rem;
+  padding-left: .4rem ;
+  padding-top: .34rem;
+}
+.container header .zz .two {
+  width: 1.61rem;
+  height: 2.32rem;
+  background: none;
+}
+.container header .zz .two img {
+  width: 1.61rem;
+  height: 1.67rem;
+  padding-top: .66rem;
+}
+.container header .zz .three {
+  width: 2.96rem;
+  height: 2.32rem;
+  background: none;
+}
+.container header .zz .three p {
+  font-size: .3rem;
+  padding-left: 1.42rem;
+  padding-top: 0.4rem;
+  color: white;
+}
+.container header .tww {
+  width: 100%;
+  height: 1.9rem;
+  background: none;
+  text-align: center;
+}
+.container header .tww a {
+  font-size: 0.38rem;
+  color: white;
+}
+.container header .tww p {
+  font-size: 0.26rem;
+  color: white;
+}
+.container header .tww span {
+  margin-top: 0.2rem;
+  display: block;
+  text-align: center;
+  border: 1px solid white;
+  width: 2.53rem ;
+  height: 0.53rem;
+  margin-left: 2.4rem;
+  border-radius: 0.5rem ;
+  color: white;
+  font-size: 0.3rem;
+}
+.container section {
+  -webkit-box-flex: 1;
+}
+.container section .one {
+  width: 100%;
+  height: 0.97rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border: 1px #ccc solid;
+  text-align: center;
+  font-size: 0.33rem;
+}
+.container section .one .ww {
+  width: 50%;
+  height: 0.97rem;
+  background: none;
+  color: #ccc;
+}
+.container section .one .ww p {
+  padding-top: 0.37rem;
+}
+.container section .one .dd {
+  width: 50%;
+  height: 0.97rem;
+  background: none;
+  color: #fc3842;
+  border-bottom: 1px solid #fc3842;
+}
+.container section .one .dd p {
+  padding-top: 0.37rem;
+}
+.container section .two {
+  width: 100%;
+  height: 1.2rem;
+  background: none;
+  border: 1px solid #f2f2f2;
+}
+.container section .two p {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  align-items: center;
+  padding-left: 0.4rem;
+  padding-top: 0.5rem ;
+}
+.container section .two p a {
+  padding-left: 0.12rem;
+  color: #ef4663;
+}
+.container section .two p span {
+  border: 1px solid #ef4663;
+  margin-left: 3.9rem;
+  color: #ef4663;
+  padding: 0.1rem 0.1rem;
+}
